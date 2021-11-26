@@ -29,3 +29,7 @@ Install homebrew (https://brew.sh) by running:
 Install software with homebrew by running:
 
     sh .dotfiles/homebrew.sh
+
+## Vim and Terminal color scheme
+
+The Vim and Terminal color scheme originate from http://color.smyck.org. The Terminal scheme can be installed by importing it as a new profile and the Vim scheme is set as default by install.sh.
