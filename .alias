@@ -1,0 +1,17 @@
+## common aliases
+alias ls='ls -G' #add color
+alias ll='ls -lh'
+alias la='ls -lah'
+alias l='ls -CF'
+alias lt='ls -larth'
+
+alias ..='cd ..'
+alias ....='cd ../..'
+
+## commands
+alias please='echo sudo $(history -p \!\!) && sudo $(history -p \!\!)'
+alias flushdns='sudo killall -HUP mDNSResponder;say DNS cache has been flushed'
+
+eval $(thefuck --alias fuck)
+
+alias grepme='sh ~/scripts/grepme.sh'
